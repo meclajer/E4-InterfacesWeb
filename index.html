@@ -1,0 +1,441 @@
+<!doctype html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewpoert" content="width=dedvice-width, initial-scale-1">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Importación JQuery: -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Importación Popper JS: -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Importación Javascript: -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- index CSS -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- icono de la pagina -->
+    <link rel="shorcut icon" type="image/z-icon" href="./assets/img/e4-logo.ico">
+
+    <title>E4 - El Electronic Entetaimment Expo</title>
+
+</head>
+
+<body data-spy="scroll" data-toggle="#header" data-offset="96">
+
+    <!-- Header -->
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/img/e4-logoPuro.png" alt="E4" width="24px" height="24px">
+                E4 - El Electronic Entertainment Expo</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carousel">El evento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ponentes">Ponentes estelares</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lugar-fecha">Lugar y fechas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inscribe">Inscribe a tu equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-succsess" href="#modal_compra" data-toggle="modal"><strong>Comprar entradas</strong></a>
+                    </li>                  
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END Header -->
+
+    <!-- Contenido pagina -->
+    <main>
+        <div id="carousel" class="carousel slide" data-ride="carousel" data-pause="false">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/1 (1).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/1 (2).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/1 (3).jpg" class="d-block w-100" alt="...">
+                </div>
+                
+                <div class="overlay">
+                    <div class="container">
+                        <div class="row align-item-center">
+                            <div class="col-md-6 offset-md-3 text-center mt-4">
+                                <h2>E4 - El Electronic Entetaimment Expo</h2>
+                                <br>
+                                <p class="d-none d-md-block">
+                                    Con sede en Cancun Quinta Roo se convertira en el evento de videojuegos más grande del mundo convirtiendose en un evento exclusivo.
+                                </p>
+                                <a href="#inscribe" class="btn btn-outline-light" role="button">Quiero inscribir a mi equipo</a>
+                                <a href="#modal_compra" class="btn btn-success mt-2" type="button" data-toggle="modal">Comprar entradas</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+
+        <!-- Ponentes -->
+        
+        <section id="ponentes" class="mt-4 p-4" style="background-color: rgb(217, 234, 235);">
+            <div class="contaiber" align-items-center>
+                <div class="row">
+                    <div class="col text-center text-uppercase">
+                        <h3>Conoce a nuestros ponentes</h3>
+                    </div>
+                </div>
+                <div class="row pb-4 pt-4">
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="./assets/img/Shigeru Miyamoto.jpg" class="card-img-top" alt="Shigeru Miyamoto">
+                            <div class="card-body">
+                                <h5 class="card-title">Shigeru Miyamoto</h5>
+                                <div class="badge pb-3">
+                                    <span class="badge badge-success"> 25 de Nombiembre</span>
+                                    <span class="badge badge-warning"> 4:00pm</span>
+                                </div>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae iste
+                                    distinctio saepe? Quasi, ipsum debitis blanditiis explicabo officiis at nostrum. Minima
+                                    officiis, laboriosam debitis sapiente eaque dicta! Corporis, magni totam.</p>
+                                <a href="https://es.wikipedia.org/wiki/Shigeru_Miyamoto" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="./assets/img/Koji Kondo.jpg" class="card-img-top" alt="Shigeru Miyamoto">
+                            <div class="card-body">
+                                <h5 class="card-title">Koji Kondo</h5>
+                                <div class="badge pb-3">
+                                    <span class="badge badge-success"> 26 de Nombiembre</span>
+                                    <span class="badge badge-warning"> 5:00pm</span>
+                                </div>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae iste
+                                    distinctio saepe? Quasi, ipsum debitis blanditiis explicabo officiis at nostrum. Minima
+                                    officiis, laboriosam debitis sapiente eaque dicta! Corporis, magni totam.</p>
+                                <a href="https://es.wikipedia.org/wiki/K%C5%8Dji_Kond%C5%8D" class="btn btn-primary">Ver
+                                    perfil</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="./assets/img/Phil Spencer.jpg" class="card-img-top" alt="Phil  Spencer">
+                            <div class="card-body">
+                                <h5 class="card-title">Shigeru Miyamoto</h5>
+                                <div class="badge pb-3">
+                                    <span class="badge badge-success"> 27 de Nombiembre</span>
+                                    <span class="badge badge-warning"> 2:00pm</span>
+                                </div>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae iste
+                                    distinctio saepe? Quasi, ipsum debitis blanditiis explicabo officiis at nostrum. Minima
+                                    officiis, laboriosam debitis sapiente eaque dicta! Corporis, magni totam.</p>
+                                <a href="https://es.wikipedia.org/wiki/Phil_Spencer" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row pb-4 pt-4">
+                    
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="./assets/img/Mark_Cerny.jpg" class="card-img-top" alt="Mark Cerny">
+                            <div class="card-body">
+                                <h5 class="card-title">Mark Cerny</h5>
+                                <div class="badge pb-3">
+                                    <span class="badge badge-success"> 28 de Nombiembre</span>
+                                    <span class="badge badge-warning"> 2:00pm</span>
+                                </div>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae iste
+                                    distinctio saepe? Quasi, ipsum debitis blanditiis explicabo officiis at nostrum. Minima
+                                    officiis, laboriosam debitis sapiente eaque dicta! Corporis, magni totam.</p>
+                                <a href="https://es.wikipedia.org/wiki/Mark_Cerny" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="./assets/img/toru-iwatani.jpg" class="card-img-top" alt="Toru Iwatani">
+                            <div class="card-body">
+                                <h5 class="card-title">Toru Iwatani</h5>
+                                <div class="badge pb-3">
+                                    <span class="badge badge-success"> 29 de Nombiembre</span>
+                                    <span class="badge badge-warning"> 2:00pm</span>
+                                </div>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae iste
+                                    distinctio saepe? Quasi, ipsum debitis blanditiis explicabo officiis at nostrum. Minima
+                                    officiis, laboriosam debitis sapiente eaque dicta! Corporis, magni totam.</p>
+                                <a href="https://es.wikipedia.org/wiki/T%C5%8Dru_Iwatani" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col pb-4 pt-3">
+                        <div class="card align-items-center pb-3 pt-3" style="width: 18rem;">
+                            <img src="./assets/img/Leonardo MKLeo Pérez.png" class="card-img-top" alt="Leonardo MKLeo Pérez">
+                            <div class="card-body">
+                                <h5 class="card-title">Leonardo MKLeo Pérez</h5>
+                                <div class="badge pb-3">
+                                    <span class="badge badge-success"> 30 de Nombiembre</span>
+                                    <span class="badge badge-warning"> 2:00pm</span>
+                                </div>
+                                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae iste
+                                    distinctio saepe? Quasi, ipsum debitis blanditiis explicabo officiis at nostrum. Minima
+                                    officiis, laboriosam debitis sapiente eaque dicta! Corporis, magni totam.</p>
+                                <a href="https://en.wikipedia.org/wiki/MkLeo" class="btn btn-primary">Ver perfil</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+        <!-- END Ponentes -->
+
+        <!-- Ligar y fecha -->
+
+            <section id="lugar-fecha">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12 col-md-6 pl-0 pr-0">
+                            <img src="./assets/img/cancun.jpg" alt="Canún, Quintana Roo." >
+                        </div>
+                        <div class="col-12 col-md-6 pt-3" style="background-color: cadetblue;">
+                            <h3>Cancún, Quintana Roo, México.</h3>
+                            <p>Del 25 al 30 de noviembre de 2020, las hermosas playas de cacnun seran Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit. Veritatis qui quibusdam placeat nemo eius? Laborum illo velit, autem quis iure reprehenderit nam,
+                                corporis adipisci iusto deleniti ullam consequuntur quidem facere.</p>
+                            <a href="https://es.wikipedia.org/wiki/Canc%C3%BAn" class="btn btn-success">Conoce cancun</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Ligar y fecha -->
+
+        <!-- Inscribe -->
+
+            <section id="inscribe" class="p-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col text-center">
+                            <h4 class="text-uppercase">Inscribe a tu equipo gamer</h4>
+                            <h4>Para las mejores competencias internacionales</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-md-8 offset-md-2 pt-2 text-center">
+                            Inscribe a tu equipo para practicar en las diferentes competencias internacionales, que peden ser individuales o en
+                            <abbr title="Maximo 5 participantes">equipos</abbr>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col-md-8 offset-md-2 pt-2 text-center">
+                            <form method="post" action="">
+                                <div class="form-row">
+                                    <div class="form-group col-12 col-sm-6 pb-1 pt-1">
+                                        <input type="text" name="" id="" class="form-control" placeholder="Nombre del equipo" required>
+                                    </div>
+                                    <div class="form-group col-12 col-sm-6 pb-1 pt-1">
+                                        <input type="text" name="" id="" class="form-control" placeholder="Nombre del capitan" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-12 pb-1 pt-1">
+                                        <input type="email" name="" id="" class="form-control" placeholder="Correo electronico del capitan" required>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="col">
+                                        <div class="form-group">
+                                            <label for="my-textarea">Propuesta</label>
+                                            <textarea id="my-textarea" class="form-control" name="" rows="3" placeholder="Describe a tu equipo y en que tipo de videojuegos son competitivos"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <!-- Inscribe -->
+
+    </main>
+    <!-- Contenido pagina -->
+
+    <!-- Footer -->
+    <footer id="footer" class="pd-4 pt-4">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12 col-md">
+                    <a href="#">Preguntas frecuentes</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Contacto</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Prensa</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">¿Quiénes somos?</a>
+                </div>
+                <div class="col-12 col-md">
+                    <a href="#">Mapa del sitio</a>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col pt-2">
+                    <p>Sigenos en nuestras redes sociales:</p>
+                </div>
+            </div>
+
+            <div class="row text-center">
+                <div class="col mt-4 mb-4">
+                    <a href="#"><i data-toggle="tooltip" data-placement="left" title="Facebook"
+                            class="fab fa-facebook-f fa-2x col-md-1"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Twiter"
+                            class="fab fa-twitter fa-2x col-md-1"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="bottom" title="Instagram"
+                            class="fab fa-instagram fa-2x col-md-1"></i></a>
+                    <a href="#"><i data-toggle="tooltip" data-placement="right" title="Youtube"
+                            class="fab fa-youtube fa-2x col-md-1"></i></a>
+                </div>
+            </div>
+
+            <div class="row text-center pb-2 pt-4">
+                <div class="col">
+                    <img src="./assets/img/logotec.png" alt="ITSJ" width="80px" height="80px">
+                </div>
+            </div>
+
+            <div class="row text-center pb-2 pt-2">
+                <div class="col">
+                    <p>&copy; 2020 - Tecnológico Nacional de México, Compus Jerez - Todos los derechos reservados.</p>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- END Footer -->
+
+    <!-- Modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal_compra" data-backdrop="static" data-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Adquirir Entradas</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Completa los siguientes datos para la compra de tus entradas:
+                    <form action="" method="post">
+                        <div class="form-row">
+                            <div class="form-group col-12 co-sm-6 pb-1 pt-1">
+                                <input type="text" name="" id="" class="form-control" placeholder="Nombre(s)" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12 co-sm-6 pb-1 pt-1">
+                                <input type="text" name="" id="" class="form-control" placeholder="Apellido(s)" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12 co-sm-6 pb-1 pt-1">
+                                <input type="email" name="" id="" class="form-control" placeholder="Correo electronico" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12 co-sm-6 pb-1 pt-1">
+                                <label for="select1">
+                                    Numero de entradas:
+                                </label>
+                                <select name="" id="select1" class="form-control">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                    <option value="6">6</option>
+                                    <option value="7">7</option>
+                                    <option value="8">8</option>
+                                    <option value="9">9</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-12 co-sm-6 pb-1 pt-1">
+                                <label for="select1">
+                                    Forma de pago:
+                                </label>
+                                <select name="" id="select1" class="form-control">
+                                    <option value="1">Tarjeta de credito</option>
+                                    <option value="2">Tarjeta de débito</option>
+                                    <option value="3">Paypal</option>
+                                    <option value="4">oxxo</option>
+                                    <option value="5">Deposito bancario</option>
+                                    <option value="6">Transferencia electronica</option>
+                                    <option value="7">Efectivo</option>
+                                    <option value="8">Riñon</option>
+                                    <option value="9">Cuerpo</option>
+                                    <option value="10">Hermanas</option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Completar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Modal -->
+
+    <!-- Tooltip -->
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <!-- END Tooltip -->
+
+</body>
+
+</html>
